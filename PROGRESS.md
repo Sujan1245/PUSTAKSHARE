@@ -16,12 +16,13 @@ Selected the initial tech stack (Flutter for mobile cross-platform support).
 Feasibility Study: Researched existing platforms to identify gaps in user experience and community trust mechanisms.
 
 
-✅ Progress 2: System Architecture & UI Skeleton
+Status: ✅ Completed Checkpoint 2
 
-Backend Integration: Established Firebase connection and configured security rules for peer-to-peer book lending.
+🛠️ Infrastructure & Security Foundation
+Database Schema Design: Finalized the Firestore NoSQL structure to support atomic "Request-to-Borrow" transactions.
 
-Data Modeling: Designed the NoSQL schema for real-time book availability tracking.
+Security Protocols: Drafted the security_spec.md to outline community trust mechanisms and book recovery guidelines.
 
-Frontend Layout: Implemented the responsive sidebar navigation and "Discover" dashboard layout.
+Backend Rules: Implemented initial firestore.rules to enforce role-based access control (RBAC), ensuring users can only modify their own listings.
 
-State Management: Initialized the global state for user authentication and book filtering.
+Environment Configuration: Prepared .env.example for secure API key management and cross-team environment parity.
