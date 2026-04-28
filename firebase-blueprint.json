@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile information for community members.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "displayName": { "type": "string" },
+        "email": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "bio": { "type": "string" },
+        "location": { "type": "string" },
+        "booksOffered": { "type": "number" },
+        "booksBorrowed": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "displayName", "email", "createdAt"]
+    },
+    "Book": {
+      "title": "Book",
+      "description": "A book listed by a community member for sharing.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "author": { "type": "string" },
+        "genre": { "type": "string" },
+        "description": { "type": "string" },
+        "condition": { "type": "string", "enum": ["New", "Gently Used", "Well Loved"] },
+        "language": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "ownerName": { "type": "string" },
+        "availabilityStatus": { "type": "string", "enum": ["Available", "Borrowed", "Hidden"] },
+        "coverImage": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "author", "ownerId", "availabilityStatus", "createdAt"]
+    },
+    "BorrowRequest": {
+      "title": "BorrowRequest",
+      "description": "A request from a user to borrow a specific book.",
+      "type": "object",
+      "properties": {
+        "bookId": { "type": "string" },
+        "bookTitle": { "type": "string" },
+        "lenderId": { "type": "string" },
+        "borrowerId": { "type": "string" },
+        "borrowerName": { "type": "string" },
+        "message": { "type": "string" },
+        "status": { "type": "string", "enum": ["Pending", "Accepted", "Rejected", "Returned"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["bookId", "lenderId", "borrowerId", "status", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "Collection of user profiles."
+    },
+    "/books/{bookId}": {
+      "schema": "Book",
+      "description": "Collection of available books."
+    },
+    "/requests/{requestId}": {
+      "schema": "BorrowRequest",
+      "description": "Collection of borrow requests between users."
+    }
+  }
+}
