@@ -38,3 +38,21 @@ Access Control: Implemented firestore.rules to define granular permission levels
 System Schematics: Documented the internal data flow between the Firebase Auth layer and the Firestore database.
 
 Metadata Readiness: Prepared the project's root files (index.html, manifest) for the upcoming UI integration.
+
+
+
+
+
+
+Date: April 28, 2026
+
+Status: ✅ Completed Checkpoint 4
+
+🖼️ Frontend Architecture & Dashboard Shell
+Source Code Initialization: Successfully pushed the core src directory, transitioning from project configuration to active development.
+
+Component-Based UI: Developed the reusable Component library, including the Sidebar Navigation and BookCard modules.
+
+Client-Side Routing: Implemented logic to handle navigation between the "Discover" feed, "My Books" management, and "Borrow Requests" dashboard.
+
+State & Props Management: Established the data flow for rendering book metadata dynamically across the application.
