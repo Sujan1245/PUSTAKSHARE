@@ -14,3 +14,14 @@ Configured the initial README.md and project structure.
 Selected the initial tech stack (Flutter for mobile cross-platform support).
 
 Feasibility Study: Researched existing platforms to identify gaps in user experience and community trust mechanisms.
+
+
+✅ Progress 2: System Architecture & UI Skeleton
+
+Backend Integration: Established Firebase connection and configured security rules for peer-to-peer book lending.
+
+Data Modeling: Designed the NoSQL schema for real-time book availability tracking.
+
+Frontend Layout: Implemented the responsive sidebar navigation and "Discover" dashboard layout.
+
+State Management: Initialized the global state for user authentication and book filtering.
