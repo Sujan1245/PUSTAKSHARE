@@ -19,3 +19,8 @@ PustakShare provides a dual-approach platform to democratize reading:
 Digital Exchange: A free repository where users can upload and share e-books instantly.
 
 Physical Lending: A community-based system where users can request or lend physical books to others in their local area.
+
+🛠️ Tech Stack
+FRONT END-typescript and vite
+BACKEND-firebase
+
