@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+📚 PustakShare
 
-# Run and deploy your AI Studio app
+## 🚀 Live Demo
+Check out the deployed website here:https://incredible-otter-ea00fb.netlify.app/
 
-This contains everything you need to run your app locally.
+📌 Project Overview
+PustakShare is a community-driven digital platform designed to bridge the gap in educational resource accessibility. It operates as a "Social Library," allowing users to share e-books and facilitate the peer-to-peer lending of physical books within local communities.
 
-View your app in AI Studio: https://ai.studio/apps/70835539-b3e9-4b9d-ad88-acfac4c8f375
+❗ Problem Statement
+Millions of students in India and beyond lack affordable access to books. Education inequality persists because resources are locked behind high costs and geographical availability barriers.
 
-## Run Locally
+✅ The Solution
+PustakShare provides a technology-powered ecosystem to unlock these resources:
 
-**Prerequisites:**  Node.js
+Free E-Book Sharing: A centralized repository for digital learning materials.
+
+Physical Book Lending: A secure protocol for requesting and lending physical books within a trusted community.
+
+Social Library Concept: Moving away from traditional gatekeeping and moving toward community-powered knowledge sharing.
+
+🛠️ Tech Stack
+Frontend: Vite +  TypeScript
+
+Styling:  CSS (Responsive Design)
+
+Backend & Database: Firebase Firestore
+
+Authentication: Firebase Auth (Secure User Sessions)
+
+Hosting: Netlify
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
