@@ -56,3 +56,32 @@ Component-Based UI: Developed the reusable Component library, including the Side
 Client-Side Routing: Implemented logic to handle navigation between the "Discover" feed, "My Books" management, and "Borrow Requests" dashboard.
 
 State & Props Management: Established the data flow for rendering book metadata dynamically across the application.
+
+
+
+
+Status: ✅ Completed Checkpoint 5
+
+🔗 Backend Integration & Logic Flow
+Data Fetching Implementation: Connected the Discover page to the Firestore database to pull live book listings dynamically.
+
+Authentication Services: Configured the login and session persistence logic within the source code to manage user profiles.
+
+Request Pipeline: Established the functional logic for the "Request to Borrow" action, linking the UI button to database write-operations.
+
+Security Validation: Tested real-time security rules to ensure that users can only view or request books based on their authentication status.
+
+
+
+
+Date: April 29, 2026
+Status: 🏆 Project Completed & Deployed
+
+🏁 Final Production & Deployment
+Live Deployment: Successfully hosted the application on a cloud platform (Firebase Hosting/Vercel) with a functional live URL.
+
+UI/UX Refinement: Conducted a final polish of the "Discover" and "My Books" views, including loading states and responsive design adjustments for mobile devices.
+
+End-to-End Workflow: Verified the complete user journey from authentication to book listing and the "Request to Borrow" transaction flow.
+
+Documentation Finalization: Completed the comprehensive README.md and security_spec.md to ensure the project is open-source ready and community-compliant.
