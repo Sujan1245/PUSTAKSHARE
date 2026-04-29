@@ -37,5 +37,15 @@ Authentication: Firebase Auth (Secure User Sessions)
 
 Hosting: vercel
 
+🌟 Key Features
+Peer-to-Peer Lending: A specialized "Request-to-Borrow" system that handles physical book exchanges without intermediaries.
+
+Dynamic Discover Feed: Real-time book listings synced with Firebase Firestore for instant updates.
+
+Secure Authentication: Integrated Firebase Auth ensuring that only registered community members can participate in lending.
+
+Trust Protocol: Comprehensive guidelines for book care, loss prevention, and community accountability.
+
+Responsive UI: A mobile-first design built with Vite and TypeScript for a fast, seamless experience across devices.
 
 
