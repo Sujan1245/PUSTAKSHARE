@@ -1,0 +1,6 @@
+{
+  "name": "PustakShare",
+  "description": "A social impact digital platform for peer-to-peer book sharing, promoting sustainability and circular economy in neighborhoods and campus communities.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": []
+}

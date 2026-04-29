@@ -1,26 +1,20 @@
-PUSTAKSHARE 📚
-Bridging the Gap in Education Through Community-Driven Book Sharing.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-📌 Project Overview
-PustakShare is a digital platform designed to tackle education inequality by making books more accessible to everyone. Whether it’s a digital e-book or a physical copy sitting on a shelf, PustakShare connects those who have resources with those who need them. Think of it as a social library powered by technology and community trust.
+# Run and deploy your AI Studio app
 
-The Problem
-Millions of students, particularly in India, face significant barriers to quality education due to:
+This contains everything you need to run your app locally.
 
-High Costs: Essential textbooks and reference materials are often prohibitively expensive.
+View your app in AI Studio: https://ai.studio/apps/70835539-b3e9-4b9d-ad88-acfac4c8f375
 
-Availability Issues: Rare or out-of-print books are difficult to locate in local libraries.
+## Run Locally
 
-Locked Resources: Thousands of books sit unused on private shelves while students elsewhere struggle to find them.
+**Prerequisites:**  Node.js
 
-The Solution
-PustakShare provides a dual-approach platform to democratize reading:
 
-Digital Exchange: A free repository where users can upload and share e-books instantly.
-
-Physical Lending: A community-based system where users can request or lend physical books to others in their local area.
-
-🛠️ Tech Stack
-FRONT END-typescript and vite
-BACKEND-firebase
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
