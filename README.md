@@ -1,7 +1,7 @@
 📚 PustakShare
 
 ## 🚀 Live Demo
-Check out the deployed website here:https://incredible-otter-ea00fb.netlify.app/
+Check out the deployed website here:https://pustakshare.vercel.app/
 
 📌 Project Overview
 
@@ -35,7 +35,7 @@ Backend & Database: Firebase Firestore
 
 Authentication: Firebase Auth (Secure User Sessions)
 
-Hosting: Netlify
+Hosting: vercel
 
 
 
